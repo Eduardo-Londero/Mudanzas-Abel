@@ -242,5 +242,9 @@ footer{
         .imagenGrande img{
             margin: auto;
         }
+
+        .imagenServicios{
+            width: 40%;
+        }
       
 }
