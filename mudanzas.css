@@ -5,7 +5,7 @@ body {
     margin: 0px;
     padding: 0px;
     width: 100%;
-    min-width: 440px;
+    min-width: 530px;
     
     
 
@@ -232,7 +232,7 @@ footer{
 }
 
 
-@media screen and (max-width: 1200px){
+@media (max-width: 1200px){
     header{
             display: inline-block;
             width: 100%;
@@ -255,7 +255,7 @@ footer{
 }
 
 
-@media screen and (max-width: 850px){
+@media (max-width: 850px){
 
     .imagenServicios{
         width: 67%;
@@ -286,7 +286,7 @@ footer{
 
 
 
-@media screen and (max-width: 550px){
+@media (max-width: 550px){
 
        nav {
         display: block;
@@ -299,3 +299,5 @@ footer{
         align-items: center;
     }
 }
+
+
