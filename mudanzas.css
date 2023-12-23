@@ -99,16 +99,18 @@ nav a:hover {
 
 
 .QuienesSomos p {
-    background-color: #FFEED9;
+    background-color: white;
     text-align: justify;
     padding: 3%;
     border-radius: 30px;
     max-width: 75%;
     margin: auto;
     font-size: 1.3rem;
-    box-shadow: -1px -7px 18px 20px rgba(0,0,0,0.59);
-    -webkit-box-shadow: -1px -7px 18px 20px rgba(0,0,0,0.59);
-    -moz-box-shadow: -1px -7px 18px 20px rgba(0,0,0,0.59);
+    box-shadow: 1px 2px 14px 7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 2px 14px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 14px 7px rgba(0,0,0,0.75);
+    
+
 }
 
 
@@ -141,22 +143,21 @@ nav a:hover {
 .imagenServicios {
     width: 25%;
     height: 30%;
-    background-color: #FFEED9;
+    background-color: white;
     margin: 20px;
     text-align: center;
-    border-radius: 30px;
     font-style: italic;
     font-size: 1.2rem;
     margin-bottom: 9%;
+    box-shadow: 1px 2px 14px 7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 2px 14px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 2px 14px 7px rgba(0,0,0,0.75);
 }
 
 
 .imagenServicios img{
     max-width: 100%;
-    border-radius: 20px;
-    box-shadow: -1px -7px 18px 20px rgba(0,0,0,0.59);
-    -webkit-box-shadow: -1px -7px 18px 20px rgba(0,0,0,0.59);
-    -moz-box-shadow: -1px -7px 18px 20px rgba(0,0,0,0.59);}
+    }
 
 .imagenServicios img:hover{
     transform: scale(1.07);
@@ -165,7 +166,7 @@ nav a:hover {
 
 
 .imagenServicios p{ 
-    background-color: #FFEED9;
+    background-color: white;
     text-align: justify;
     padding: 20px;
     border-radius: 30px;
