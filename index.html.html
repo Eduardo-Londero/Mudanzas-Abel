@@ -2,9 +2,19 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Mudanzas Abel</title>
     <link rel="stylesheet" type="text/css" href="mudanzas.css">
+
+    <script>
+        window.onload = function() {
+          // Verificar si el ancho de la pantalla es menor que cierto valor (puedes ajustar el valor según tus necesidades)
+          if (window.innerWidth <= 400) {
+            document.body.style.zoom = "70%";
+          }
+        }
+      </script>
+
 </head>
 <body>
 
@@ -14,9 +24,9 @@
     
 
         <nav>
-            <a href="#QuienesSomos">Quienes Somos ?</a>
-            <a href="#servicios">Servicios</a>
-            <a href="#contactos">Contactos</a>
+            <div class="menu"><a href="#QuienesSomos">Quienes Somos ?</a></div>
+            <div class="menu"><a href="#servicios">Servicios</a></div>
+            <div class="menu"><a href="#contactos">Contactos</a></div>
         </nav>
     
     

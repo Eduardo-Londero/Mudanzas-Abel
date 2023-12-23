@@ -5,7 +5,8 @@ body {
     margin: 0px;
     padding: 0px;
     width: 100%;
-    min-width: 700px;
+    min-width: 440px;
+    
     
 
 }
@@ -283,3 +284,18 @@ footer{
     }
 }
 
+
+
+@media screen and (max-width: 550px){
+
+       nav {
+        display: block;
+
+       }
+
+       .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
