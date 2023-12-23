@@ -6,6 +6,7 @@ body {
     padding: 0px;
     width: 100%;
     min-width: 700px;
+    
 
 }
 
@@ -253,9 +254,27 @@ footer{
         width: 67%;
     }
 
+    .contactosFooter{
+        display: block;
+       
+
+    }
+
     .contactosFooter a{
         font-size: 1.1rem;
     }
 
+    .iconos  {
+        background-color: red;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: 1%;
+       padding: 1%;
+    }
+
+    .iconos a{
+        width: 30%;
+    }
 }
 
