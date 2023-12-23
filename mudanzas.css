@@ -5,7 +5,7 @@ body {
     margin: 0px;
     padding: 0px;
     width: 100%;
-    min-width: 530px;
+    min-width: 500px;
     
     
 
@@ -286,7 +286,7 @@ footer{
 
 
 
-@media (max-width: 550px){
+@media (max-width: 600px){
 
        nav {
         display: block;
