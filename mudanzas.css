@@ -215,6 +215,7 @@ footer{
 
 .contactosFooter a img {
     margin-right: 1rem;
+    width: 20%;
 
 }
 
@@ -223,6 +224,10 @@ footer{
     transform: scale(1.5);
     transition-duration: 200ms;
 
+}
+
+.iconos img {
+    width: 40%;
 }
 
 
@@ -244,6 +249,7 @@ footer{
         .imagenServicios{
             width: 30%;
         }
+
       
 }
 
@@ -261,7 +267,7 @@ footer{
     }
 
     .contactosFooter a{
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
     .iconos  {
@@ -273,7 +279,7 @@ footer{
     }
 
     .iconos a{
-        width: 30%;
+        width: 40%;
     }
 }
 
