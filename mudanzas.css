@@ -13,12 +13,19 @@ body {
 
 header {
     display: flex;
-    background: rgb(146,182,220);
-    background: linear-gradient(185deg, rgba(146,182,220,1) 12%, rgba(127,169,214,1) 16%, rgba(57,121,191,1) 22%, rgba(68,129,195,1) 25%, rgba(72,131,196,1) 30%, rgba(109,156,208,1) 32%, rgba(82,138,199,1) 35%, rgba(57,121,191,1) 37%, rgba(120,164,212,1) 42%, rgba(67,128,194,1) 51%, rgba(85,140,200,1) 56%, rgba(67,128,194,1) 60%, rgba(137,175,217,1) 69%, rgba(159,190,224,1) 84%, rgba(253,254,255,1) 100%);
+    background-color: #292f83;
+   /* background: rgb(146,182,220);*/
+    /*background: linear-gradient(185deg, rgba(146,182,220,1) 12%, rgba(127,169,214,1) 16%, rgba(57,121,191,1) 22%, rgba(68,129,195,1) 25%, rgba(72,131,196,1) 30%, rgba(109,156,208,1) 32%, rgba(82,138,199,1) 35%, rgba(57,121,191,1) 37%, rgba(120,164,212,1) 42%, rgba(67,128,194,1) 51%, rgba(85,140,200,1) 56%, rgba(67,128,194,1) 60%, rgba(137,175,217,1) 69%, rgba(159,190,224,1) 84%, rgba(253,254,255,1) 100%);*/
     color: white;
     padding-top: 2%;
     padding-bottom: 2%; 
+   
     
+}
+
+
+.abrir-menu{
+    display: none;
 }
 
 header h1 {
@@ -30,15 +37,16 @@ header h1 {
 
 
 nav {
-    background: rgb(146,182,220);
-    background: linear-gradient(185deg, rgba(146,182,220,1) 12%, rgba(127,169,214,1) 16%, rgba(57,121,191,1) 22%, rgba(68,129,195,1) 25%, rgba(72,131,196,1) 30%, rgba(109,156,208,1) 32%, rgba(82,138,199,1) 35%, rgba(57,121,191,1) 37%, rgba(120,164,212,1) 42%, rgba(67,128,194,1) 51%, rgba(85,140,200,1) 56%, rgba(67,128,194,1) 60%, rgba(137,175,217,1) 69%, rgba(159,190,224,1) 84%, rgba(253,254,255,1) 100%);
+  
+    background-color: #292f83;
+    /*background: rgb(146,182,220);
+    background: linear-gradient(185deg, rgba(146,182,220,1) 12%, rgba(127,169,214,1) 16%, rgba(57,121,191,1) 22%, rgba(68,129,195,1) 25%, rgba(72,131,196,1) 30%, rgba(109,156,208,1) 32%, rgba(82,138,199,1) 35%, rgba(57,121,191,1) 37%, rgba(120,164,212,1) 42%, rgba(67,128,194,1) 51%, rgba(85,140,200,1) 56%, rgba(67,128,194,1) 60%, rgba(137,175,217,1) 69%, rgba(159,190,224,1) 84%, rgba(253,254,255,1) 100%);*/
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 70%;
     margin: auto;
     padding: 1%;
-    border-radius: 30px;
     border: 1px solid;
     
     
@@ -52,12 +60,12 @@ nav a {
     border-radius: 20px;
     transition: background-color 0.3s;
     font-size: 125%;
-    
-    
+      
 }
 
 nav a:hover {
-    background: rgb(146,182,220);
+    background-color:#8879cf;
+   /*background: rgb(146,182,220);*/
     transform: scale(1.2);
     transition-duration: 200ms;
     
@@ -66,7 +74,6 @@ nav a:hover {
 .logo {
     width: 5%;
     margin: auto;
-    border-radius: 30px;
 }
 
 
@@ -96,19 +103,19 @@ nav a:hover {
         font-size: 2rem;
     }
 
-
+    
 
 .QuienesSomos p {
-    background-color: white;
+    background-color: #F3F5F8;
     text-align: justify;
     padding: 3%;
-    border-radius: 30px;
-    max-width: 75%;
     margin: auto;
+    margin-left: 4%;
+    margin-right: 4%;
     font-size: 1.3rem;
-    box-shadow: 1px 2px 14px 7px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 1px 2px 14px 7px rgba(0,0,0,0.75);
-    -moz-box-shadow: 1px 2px 14px 7px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.75);
     
 
 }
@@ -142,16 +149,15 @@ nav a:hover {
 
 .imagenServicios {
     width: 25%;
-    height: 30%;
-    background-color: white;
+    background-color: #F3F5F8;
     margin: 20px;
     text-align: center;
-    font-style: italic;
+    color: #1C244B;
     font-size: 1.2rem;
     margin-bottom: 9%;
-    box-shadow: 1px 2px 14px 7px rgba(0,0,0,0.75);
--webkit-box-shadow: 1px 2px 14px 7px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 2px 14px 7px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.75);
 }
 
 
@@ -166,18 +172,19 @@ nav a:hover {
 
 
 .imagenServicios p{ 
-    background-color: white;
+    background-color: #F3F5F8;
     text-align: justify;
     padding: 20px;
-    border-radius: 30px;
+    color: #324A6D;
     }
+
 /*  Footer  */
 
 footer{
     height: auto;
-    background: rgb(146,182,220);
-    background: linear-gradient(185deg, rgba(146,182,220,1) 12%, rgba(127,169,214,1) 16%, rgba(57,121,191,1) 22%, rgba(68,129,195,1) 25%, rgba(72,131,196,1) 30%, rgba(109,156,208,1) 32%, rgba(82,138,199,1) 35%, rgba(57,121,191,1) 37%, rgba(120,164,212,1) 42%, rgba(67,128,194,1) 51%, rgba(85,140,200,1) 56%, rgba(67,128,194,1) 60%, rgba(137,175,217,1) 69%, rgba(159,190,224,1) 84%, rgba(253,254,255,1) 100%); 
-    border-radius: 40px;
+    background-color: #292f83;
+    /*background: rgb(146,182,220);
+    background: linear-gradient(185deg, rgba(146,182,220,1) 12%, rgba(127,169,214,1) 16%, rgba(57,121,191,1) 22%, rgba(68,129,195,1) 25%, rgba(72,131,196,1) 30%, rgba(109,156,208,1) 32%, rgba(82,138,199,1) 35%, rgba(57,121,191,1) 37%, rgba(120,164,212,1) 42%, rgba(67,128,194,1) 51%, rgba(85,140,200,1) 56%, rgba(67,128,194,1) 60%, rgba(137,175,217,1) 69%, rgba(159,190,224,1) 84%, rgba(253,254,255,1) 100%); */
     justify-content: space-around;
 }
 
@@ -208,7 +215,7 @@ footer{
 .contactosFooter a{
     font-size: 2.5vh;
     text-decoration: none;
-    color: black;
+    color: white;
     padding-bottom: 1%; 
     display: flex;   
     align-items: center;
@@ -249,15 +256,26 @@ footer{
             margin: auto;
         }
 
+        .QuienesSomos p {
+            margin-right: 10%;
+            margin-left: 10%;
+        }
+
         .imagenServicios{
             width: 30%;
         }
+
 
       
 }
 
 
 @media (max-width: 850px){
+
+    .QuienesSomos p {
+        margin-right: 16%;
+        margin-left: 16%;
+    }
 
     .imagenServicios{
         width: 67%;
@@ -302,8 +320,53 @@ footer{
     }
 
     .logo {
-        width: 7%;
+        width: 19%;
     }
+
+    header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1%;
+    }
+
+
+    .abrir-menu{
+        display: flex;
+        margin-left: 4%;
+        margin-top: 3%;
+        position:absolute;
+        justify-content: flex-start;
+        
+    }
+    
+    .abrir-menu button{
+        padding: 1rem;
+        background-color: #292f83;
+    }
+
+
+    
+    .no-visible {
+        display: none;
+    }
+
+    /*sacando los Hover en movil */
+    nav a:hover {
+    background-color:transparent;
+    transform: scale(1);
+    transition-duration: 0ms;
+    }
+
+    .contactosFooter img:hover{
+        transform: scale(1);
+        transition-duration: 0ms;
+    
+    }
+
+    .imagenServicios img:hover{
+        transform: scale(1);
+        transition-duration: 0ms;
+    }
+    
 }
 
 
