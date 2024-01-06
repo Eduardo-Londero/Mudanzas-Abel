@@ -97,6 +97,8 @@ nav a:hover {
 
 .QuienesSomos h2 {
         display: flex;
+        color:#1C244B;
+        font-family: 'Poppins',sans-serif;
         justify-content: center;
         align-items: center;
         padding: 30px;
@@ -108,6 +110,7 @@ nav a:hover {
 .QuienesSomos p {
     background-color: #F3F5F8;
     text-align: justify;
+    color: #324A6D;
     padding: 3%;
     margin: auto;
     margin-left: 4%;
@@ -133,6 +136,8 @@ nav a:hover {
 
 .tituloServicios h2{
     display: flex;
+    color:#1C244B;
+    font-family: 'Poppins',sans-serif;
     justify-content: center;
     align-items: center;
     padding: 30px;
@@ -146,6 +151,12 @@ nav a:hover {
     flex-wrap: wrap;
     
 }
+
+
+.imagenServicios h3 {
+    font-family: 'Poppins',sans-serif;
+}
+
 
 .imagenServicios {
     width: 25%;
@@ -173,10 +184,11 @@ nav a:hover {
 
 .imagenServicios p{ 
     background-color: #F3F5F8;
-    text-align: justify;
     padding: 20px;
     color: #324A6D;
+    text-align: start;
     }
+
 
 /*  Footer  */
 
